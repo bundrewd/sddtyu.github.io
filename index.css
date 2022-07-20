@@ -1,0 +1,60 @@
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #395B64;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.orta {
+  background: #A5C9CA;
+  border-radius: 4px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  .orta {
+    flex-direction: row-reverse;
+  }
+  
+}
+
+@media only screen and (max-height: 640px) {
+  .orta {
+    flex-direction: row-reverse;
+  }
+  
+}
+
+
+.yazı {
+  padding: 1em;
+}
+
+.m {
+  opacity: 0.8;
+}
+
+.boşluk {
+  height: 100px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  }
